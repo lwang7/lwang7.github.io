@@ -1,0 +1,16 @@
+h1{
+	font-family:Impact; font-size:40px; color:red
+}
+body{
+	background-color:pink
+}
+h2{
+	background-color:blue; font-size: 20px; color: white
+}
+.main-nav{
+	font-family:Arial; font-size:16px; color:black
+}
+.sub-nav{
+	font-family:Arial; font-size:10px;color:green
+}
+h3{font-family:Impact; font-size 30px; color: blue}
