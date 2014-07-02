@@ -1,12 +1,49 @@
-h1{
-	font-family:Impact; font-size:40px; color:red
+
+.title{
+	font-family:cursive; font-size:50px; color:black
 }
+
 body{
-	background-color:pink
+	background-image:url('../img/dimension_@2x.png');
+	background-repeat:repeat;
 }
-h2{
-	background-color:blue; font-size: 20px; color: white
+
+.clearfix:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+header{
+	width: 100%;
+	height:60px;
+	border-bottom: 2px solid black;
+	background:white;
 }
+
+header img{
+	float: left;
+}
+header ul{
+	float: right;
+	margin-right:60px;
+}
+header ul li{
+	display:inline-black;
+	font-family:cursive;
+	font-size:40px;
+}
+
+.headshot{
+	width:200px;height:300px;
+	border-radius:20px;
+}
+.about-me{
+	text-align:center;
+	color:black;
+	font-family:inherit;
+	font-size:20px;
+}
+
 .main-nav{
 	font-family:Arial; font-size:16px; color:black
 }
@@ -14,3 +51,31 @@ h2{
 	font-family:Arial; font-size:13px;color:green
 }
 h3{font-family:Impact; font-size 30px; color: blue}
+
+table tr td img{
+	height:60px;
+	width:60px;
+}
+.aboutme-header:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+header{
+	width: 100%;
+	height:60px;
+	border-bottom: 2px solid black;
+	background:white;
+}
+
+header img{
+	float: left;
+}
+header ul{
+	float: right;
+	margin-right:60px;
+}
+header ul li{
+	display:inline-black;
+	font-family:cursive;
+	font-size:40px;
