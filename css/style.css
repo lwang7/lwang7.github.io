@@ -4,7 +4,7 @@
 }
 
 body{
-	background-image:url('../img/floralblue.jpg');
+	background-image:url('../img/dimension_@2X.jpg');
 	background-repeat:repeat;
 }
 
@@ -19,7 +19,7 @@ header{
 	border-bottom: 2px solid black;
 	background:white;
 	text-align: center;
-	margin: 0 auto;
+	
 }
 
 header ul{
