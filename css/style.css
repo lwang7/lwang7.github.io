@@ -18,45 +18,42 @@ header{
 	height:60px;
 	border-bottom: 2px solid black;
 	background:white;
+	text-align: center;
+	margin: 0 auto;
 }
 
-header img{
-	float: left;
-}
 header ul{
-	float: right;
-	margin-right:60px;
+
 }
 header ul li{
-	display:inline-black;
+	display:inline-block;
 	font-family:cursive;
 	font-size:40px;
+	margin:0 10px;
 }
 
 .headshot{
 	width:200px;height:300px;
 	border-radius:20px;
+	float:left;
 }
 .about-me{
-	text-align:center;
 	color:black;
-	font-family:inherit;
+	font-family:cursive;
 	font-size:20px;
+	float:left;
+	width:70%;
+	margin-left:20px;
+	margin-top:50px;
 }
-
-.main-nav{
-	font-family:Arial; font-size:16px; color:black
-}
-.sub-nav{
-	font-family:Arial; font-size:13px;color:green
-}
-h3{font-family:Impact; font-size 30px; color: blue}
 
 table tr td img{
 	height:60px;
 	width:60px;
 }
-.aboutme-header:after {
+
+/* about me page */
+.aboutmeheader:after {
 		content: "";
 		display: table;
 		clear: both;
