@@ -29,7 +29,7 @@ header ul li{
 	display:inline-block;
 	font-family:cursive;
 	font-size:40px;
-	margin:0 10px;
+	margin:0 65px;
 }
 
 .headshot{
@@ -46,13 +46,30 @@ header ul li{
 	margin-left:20px;
 	margin-top:50px;
 }
+button{
+	border-top:10px solid blue;
+	border-bottom:10px solid blue;
+	border-left:10px solid blue;
+	border-right:10px solid blue;
+	padding: 10px 20px !important;
+	font-size:14px !important;
+	font-family: cursive !important;
+	background-color:	#c4f1fe;
+	font-weight:		bold;
+	color:			#2d525d;
 
+}
+.contact{
+	font-family:cursive;
+
+}
 table tr td img{
 	height:60px;
 	width:60px;
 }
 
 /* about me page */
+
 .aboutmeheader:after {
 		content: "";
 		display: table;
